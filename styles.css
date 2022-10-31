@@ -1,0 +1,223 @@
+/* Add your CSS to this file */
+body {
+    margin: 0;
+    font-size: 16px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+    display:flex
+    /*grid-template-columns:1fr 1fr;
+    grid-auto-rows: auto;
+    grid-gap:1px;*/
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #6b7280;
+}
+
+nav{
+    display:flex;
+    justify-content: center;
+    color:#6b7280
+
+}
+
+.overview-hero{
+    background-color: #E2E8F0
+}
+
+.overview-hero.container{
+    display:flex
+}
+
+.overview-hero-image{
+    margin-top: 25px;
+    margin-bottom: 35px;
+    margin-left: 30px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.overview-hero-text{
+    margin-left: 50px;
+    margin-top:75px;
+    margin-bottom: 50px;
+}
+
+.learn-about{
+    display: grid;
+}
+
+.learn-about .container{
+    display:grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.learn-about h2{
+    color: #48BB78;
+    font-size: 24px;
+}
+
+
+.learn-about .container {
+    max-width: 1020px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+    padding: 10px;
+    margin-right: 20px;
+    border: #E2E8F0;
+    border-style: solid;
+    border-radius: 5px;
+    box-shadow:  4px 5px #888888;
+}
+
+.testing {
+    margin-top: 50px;
+    background-color: #4A5568;
+    color: white;
+}
+
+.testing .container {
+    display: grid;
+    grid-template-columns: 80% 10%;
+    max-width: fit-content;
+    height: 300px;
+    align-items: center;
+}
+
+.testing-desciption {
+    margin-left: 150px;
+    padding-right: 15px;
+    text-align:justify;
+}
+
+.cta a{
+    left: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: #48BB78;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.stories .container{
+    margin-top:50px;
+    display:grid;
+   
+}
+
+.stories .container .cta{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.stories article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.stories h2 {
+    color: #5A67D8;
+}
+
+.stories a {
+    text-decoration: none;
+    color: #5A67D8;
+}
+
+.stories h3 {
+    font-size: 21px;
+    color :#48BB78;
+}
+
+.stories img{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-right: 20px;
+    border-radius: 20%;
+    width: 200px;
+    height: 150px;
+}
+
+.newsletter {
+    background-color: #48BB78;
+    padding: 79px;
+    color: white;
+}
+
+.newsletter h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.newsletter .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+}
+
+button {
+    width: 140px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #5A67D8;
+}
+
+input {
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+}
+
+footer {
+    padding: 10px;
+    background-color: #4A5568;
+    color: white;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+header{
+    font-size: 18px;
+    background-color: white;
+}
+
+li a:hover {
+    color: #5A67D8;
+}
